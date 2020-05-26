@@ -3,7 +3,7 @@
   var cognomeUser = "";
 
 // condizione
-if (cognomeUser !== "") {
+if (!isNaN(cognomeUser)) {
   cognomeUser = prompt('qual è il tuo cognome?');  //richiesta Cognome
   var cognomeUserUpper = cognomeUser.toUpperCase();//nome in lista in maiuscolo
   cognomi.push(cognomeUserUpper);// inivio cognome all'array
